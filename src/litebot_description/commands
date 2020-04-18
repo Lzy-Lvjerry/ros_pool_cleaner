@@ -1,0 +1,18 @@
+查看深度图像：rosrun image_view image_view image:=camera/depth/age_raw
+查看原始RGB图像：rosrun image_view image_view image:=camera/rgb/ime_raw
+向cmd_vel发送数据：rostopic pub -1 /cmd_vel geometry_msgs/Twist （TAB）
+
+
+rosrun rqt_image_view rqt_image_view
+
+
+
+启动仿真机器人(包括kinect)：roslaunch litebot_description view_litebot_with_kinect_gazebo.launch
+
+深度信息转换成/scan信息： rosrun depthimage_to_laserscan depthimage_to_laserscan image:=/camera/depth/image_raw
+
+启动gmapping建图：rosrun gmapping slam_gmapping scan:=scan
+
+在rviz中观察建图过程：rosrun rviz rviz
+
+查看rqt_tree图 ： rosrun rqt_tf_tree rqt_tf_tree

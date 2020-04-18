@@ -1,0 +1,59 @@
+<launch>
+
+  <!-- these are the arguments you can pass this launch file, for example paused:=true -->
+  <arg name="paused" default="false"/>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="gui" default="true"/>
+  <arg name="headless" default="false"/>
+  <arg name="debug" default="false"/>
+
+  <!-- We resume the logic in empty_world.launch -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find litebot_description)/worlds/pool.world"/>
+    <arg name="debug" value="$(arg debug)" />
+    <arg name="gui" value="$(arg gui)" />
+    <arg name="paused" value="$(arg paused)"/>
+    <arg name="use_sim_time" value="$(arg use_sim_time)"/>
+    <arg name="headless" value="$(arg headless)"/>
+  </include>
+
+  <!-- urdf xml robot description loaded on the Parameter Server-->
+  
+  <!-- loaded tags -->
+  <param name="tag_description_0" command="$(find xacro)/xacro.py '$(find litebot_description)/urdf/ar_tag_0.xacro'" />
+  <param name="tag_description_1" command="$(find xacro)/xacro.py '$(find litebot_description)/urdf/ar_tag_1.xacro'" />
+  <param name="tag_description_2" command="$(find xacro)/xacro.py '$(find litebot_description)/urdf/ar_tag_2.xacro'" />
+  <param name="tag_description_3" command="$(find xacro)/xacro.py '$(find litebot_description)/urdf/ar_tag_3.xacro'" />
+  <param name="tag_description_4" command="$(find xacro)/xacro.py '$(find litebot_description)/urdf/ar_tag_4.xacro'" />
+
+  <!-- loaded the litebot -->
+ <param name="robot_description" command="$(find xacro)/xacro.py '$(find litebot_description)/urdf/litebot_with_kinect_gazebo.xacro'" />
+
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ></node> 
+
+  <!-- Starting robot state publish which will publish tf -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher"  output="screen" >
+    <param name="publish_frequency" type="double" value="50.0" />
+  </node>
+
+  <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
+  <node name="urdf_spawner_litebot" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+	args="-urdf -model litebot -param robot_description"/> 
+	
+  <node name="urdf_spawner_tag_0" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+	args="-urdf -x 1.0 -y 0.5 -z 0.5 -R 0 -P 0 -Y 0 -model ar_tag_0 -param tag_description_0"/>
+	
+	<node name="urdf_spawner_tag_1" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+	args="-urdf -x 2.0 -y 1.5 -z 0.5 -R 0 -P 0 -Y 0 -model ar_tag_1 -param tag_description_1"/> 	
+	
+	<node name="urdf_spawner_tag_2" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+	args="-urdf -x 3.0 -y 2.5 -z 0.5 -R 0 -P 0 -Y 0 -model ar_tag_2 -param tag_description_2"/> 	
+	
+	<node name="urdf_spawner_tag_3" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+	args="-urdf -x 0.5 -y 4.5 -z 0.5 -R 0 -P 0 -Y 0 -model ar_tag_3 -param tag_description_3"/> 	
+	
+	<node name="urdf_spawner_tag_4" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+	args="-urdf -x 2.5 -y 2.5 -z 0.5 -R 0 -P 0 -Y 0 -model ar_tag_4 -param tag_description_4"/> 	 	
+ 
+
+</launch>

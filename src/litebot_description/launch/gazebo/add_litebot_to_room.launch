@@ -1,0 +1,10 @@
+<launch>
+
+  <!-- urdf xml robot description loaded on the Parameter Server-->
+  <param name="robot_description" command="$(find xacro)/xacro.py '$(find litebot_description)/urdf/litebot_with_kinect_gazebo.xacro'" /> 
+
+  <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
+  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
+	args="-urdf -model litebot -param robot_description"/> 
+
+</launch>
