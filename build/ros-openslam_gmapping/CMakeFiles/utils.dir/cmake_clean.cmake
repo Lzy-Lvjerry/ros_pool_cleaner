@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/utils.dir/utils/stat.cpp.o"
   "CMakeFiles/utils.dir/utils/movement.cpp.o"
-  "/home/lvjerry/catkin_ws/devel/lib/libutils.pdb"
-  "/home/lvjerry/catkin_ws/devel/lib/libutils.so"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/libutils.pdb"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/libutils.so"
 )
 
 # Per-language clean rules from dependency scanning.

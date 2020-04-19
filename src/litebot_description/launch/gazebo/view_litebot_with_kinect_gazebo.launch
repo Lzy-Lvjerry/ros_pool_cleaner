@@ -16,7 +16,7 @@
   <arg name="cam_info_topic" default="/camera/rgb/camera_info" />
   <arg name="output_frame" default="/camera_frame_optical" />
 
-  
+
   <!-- We resume the logic in empty_world.launch -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <arg name="world_name" value="$(find litebot_description)/worlds/pool.world"/>
@@ -28,7 +28,7 @@
   </include>
 
   <!-- urdf xml robot description loaded on the Parameter Server-->
-  
+
   <!-- loaded tags -->
   <param name="tag_description_0" command="$(find xacro)/xacro.py '$(find litebot_description)/urdf/ar_tag_0.xacro'" />
   <param name="tag_description_1" command="$(find xacro)/xacro.py '$(find litebot_description)/urdf/ar_tag_1.xacro'" />
@@ -37,47 +37,41 @@
   <param name="tag_description_4" command="$(find xacro)/xacro.py '$(find litebot_description)/urdf/ar_tag_4.xacro'" />
 
   <!-- loaded the litebot -->
- <param name="robot_description" command="$(find xacro)/xacro.py '$(find litebot_description)/urdf/litebot_with_kinect_gazebo.xacro'" />
+  <param name="robot_description" command="$(find xacro)/xacro.py '$(find litebot_description)/urdf/litebot_with_kinect_gazebo.xacro'" />
 
-  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" ></node> 
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"></node>
 
   <!-- Starting robot state publish which will publish tf -->
-  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher"  output="screen" >
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" output="screen">
     <param name="publish_frequency" type="double" value="50.0" />
   </node>
 
   <!-- Run a python script to the send a service call to gazebo_ros to spawn a URDF robot -->
-  <node name="urdf_spawner_litebot" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-	args="-urdf -model litebot -param robot_description"/> 
-	
-  <node name="urdf_spawner_tag_0" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-	args="-urdf -x 1.0 -y 0.5 -z 0.5 -R 0 -P 0 -Y 0 -model ar_tag_0 -param tag_description_0"/>
-	
-	<node name="urdf_spawner_tag_1" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-	args="-urdf -x 2.0 -y 1.5 -z 0.5 -R 0 -P 0 -Y 0 -model ar_tag_1 -param tag_description_1"/> 	
-	
-	<node name="urdf_spawner_tag_2" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-	args="-urdf -x 3.0 -y 2.5 -z 0.5 -R 0 -P 0 -Y 0 -model ar_tag_2 -param tag_description_2"/> 	
-	
-	<node name="urdf_spawner_tag_3" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-	args="-urdf -x 0.5 -y 4.5 -z 0.5 -R 0 -P 0 -Y 0 -model ar_tag_3 -param tag_description_3"/> 	
-	
-	<node name="urdf_spawner_tag_4" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-	args="-urdf -x 2.5 -y 2.5 -z 0.5 -R 0 -P 0 -Y 0 -model ar_tag_4 -param tag_description_4"/> 	 	
- 
+  <node name="urdf_spawner_litebot" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-urdf -model litebot -param robot_description"/>
 
-    <node pkg="tf" type="static_transform_publisher" name="world_frames_connection" 
-    args="0 0 0 0 0 -1.57 /camera_frame_optical /camera_link 100" /> 
+  <node name="urdf_spawner_tag_0" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-urdf -x 1.0 -y 0.5 -z 0.5 -R 0 -P 0 -Y 0 -model ar_tag_0 -param tag_description_0"/>
 
-     <!-- run ar_track_alvar  -->
-     <node name="ar_track_alvar" pkg="ar_track_alvar" type="individualMarkersNoKinect" respawn="false" output="screen">
-        <param name="marker_size" type="double" value="$(arg marker_size)" />
-        <param name="max_new_marker_error" type="double" value="$(arg max_new_marker_error)" />
-        <param name="max_track_error" type="double" value="$(arg max_track_error)" />
-        <param name="output_frame" type="string" value="$(arg output_frame)" />
+  <node name="urdf_spawner_tag_1" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-urdf -x 2.0 -y 1.5 -z 0.5 -R 0 -P 0 -Y 0 -model ar_tag_1 -param tag_description_1"/>
 
-        <remap from="camera_image" to="$(arg cam_image_topic)" />
-        <remap from="camera_info" to="$(arg cam_info_topic)" />
-    </node>
+  <node name="urdf_spawner_tag_2" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-urdf -x 3.0 -y 2.5 -z 0.5 -R 0 -P 0 -Y 0 -model ar_tag_2 -param tag_description_2"/>
+
+  <node name="urdf_spawner_tag_3" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-urdf -x 0.5 -y 4.5 -z 0.5 -R 0 -P 0 -Y 0 -model ar_tag_3 -param tag_description_3"/>
+
+  <node name="urdf_spawner_tag_4" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-urdf -x 2.5 -y 2.5 -z 0.5 -R 0 -P 0 -Y 0 -model ar_tag_4 -param tag_description_4"/>
+
+
+  <node pkg="tf" type="static_transform_publisher" name="world_frames_connection" args="0 0 0 0 0 -1.57 /camera_frame_optical /camera_link 100" />
+
+  <!-- run ar_track_alvar  -->
+  <node name="ar_track_alvar" pkg="ar_track_alvar" type="individualMarkersNoKinect" respawn="false" output="screen">
+    <param name="marker_size" type="double" value="$(arg marker_size)" />
+    <param name="max_new_marker_error" type="double" value="$(arg max_new_marker_error)" />
+    <param name="max_track_error" type="double" value="$(arg max_track_error)" />
+    <param name="output_frame" type="string" value="$(arg output_frame)" />
+
+    <remap from="camera_image" to="$(arg cam_image_topic)" />
+    <remap from="camera_info" to="$(arg cam_info_topic)" />
+  </node>
+
 
 </launch>

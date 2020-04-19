@@ -1,4 +1,4 @@
-prefix=/home/lvjerry/catkin_ws/devel
+prefix=/home/lvjerry/poolCleaner_ws/devel
 
 Name: tf2_tools
 Description: Description of tf2_tools

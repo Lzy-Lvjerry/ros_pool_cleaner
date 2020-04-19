@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/configfile_test.dir/configfile/configfile_test.cpp.o"
-  "/home/lvjerry/catkin_ws/devel/lib/openslam_gmapping/configfile_test.pdb"
-  "/home/lvjerry/catkin_ws/devel/lib/openslam_gmapping/configfile_test"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/openslam_gmapping/configfile_test.pdb"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/openslam_gmapping/configfile_test"
 )
 
 # Per-language clean rules from dependency scanning.

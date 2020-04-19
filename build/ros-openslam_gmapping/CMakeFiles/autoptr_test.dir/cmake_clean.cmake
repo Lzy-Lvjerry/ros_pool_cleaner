@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/autoptr_test.dir/utils/autoptr_test.cpp.o"
-  "/home/lvjerry/catkin_ws/devel/lib/openslam_gmapping/autoptr_test.pdb"
-  "/home/lvjerry/catkin_ws/devel/lib/openslam_gmapping/autoptr_test"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/openslam_gmapping/autoptr_test.pdb"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/openslam_gmapping/autoptr_test"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
-# Install script for directory: /home/lvjerry/catkin_ws/src/odom_tf_package
+# Install script for directory: /home/lvjerry/poolCleaner_ws/src/odom_tf_package
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lvjerry/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lvjerry/poolCleaner_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lvjerry/catkin_ws/build/odom_tf_package/catkin_generated/installspace/odom_tf_package.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lvjerry/poolCleaner_ws/build/odom_tf_package/catkin_generated/installspace/odom_tf_package.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/odom_tf_package/cmake" TYPE FILE FILES
-    "/home/lvjerry/catkin_ws/build/odom_tf_package/catkin_generated/installspace/odom_tf_packageConfig.cmake"
-    "/home/lvjerry/catkin_ws/build/odom_tf_package/catkin_generated/installspace/odom_tf_packageConfig-version.cmake"
+    "/home/lvjerry/poolCleaner_ws/build/odom_tf_package/catkin_generated/installspace/odom_tf_packageConfig.cmake"
+    "/home/lvjerry/poolCleaner_ws/build/odom_tf_package/catkin_generated/installspace/odom_tf_packageConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/odom_tf_package" TYPE FILE FILES "/home/lvjerry/catkin_ws/src/odom_tf_package/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/odom_tf_package" TYPE FILE FILES "/home/lvjerry/poolCleaner_ws/src/odom_tf_package/package.xml")
 endif()
 

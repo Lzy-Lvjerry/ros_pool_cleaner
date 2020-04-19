@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rotate_recovery.dir/src/rotate_recovery.cpp.o"
-  "/home/lvjerry/catkin_ws/devel/lib/librotate_recovery.pdb"
-  "/home/lvjerry/catkin_ws/devel/lib/librotate_recovery.so"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/librotate_recovery.pdb"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/librotate_recovery.so"
 )
 
 # Per-language clean rules from dependency scanning.

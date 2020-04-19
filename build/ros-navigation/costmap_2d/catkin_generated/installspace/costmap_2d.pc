@@ -1,4 +1,4 @@
-prefix=/home/lvjerry/catkin_ws/install
+prefix=/home/lvjerry/poolCleaner_ws/install
 
 Name: costmap_2d
 Description: Description of costmap_2d

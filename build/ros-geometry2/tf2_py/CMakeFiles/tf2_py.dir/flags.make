@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC   -g -Wno-missing-field-initializers
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Dtf2_py_EXPORTS
 
-CXX_INCLUDES = -I/usr/include/python2.7 -I/home/lvjerry/catkin_ws/devel/include -I/home/lvjerry/catkin_ws/src/ros-geometry2/tf2/include -I/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_msgs/include -I/opt/ros/melodic/include 
+CXX_INCLUDES = -I/usr/include/python2.7 -I/home/lvjerry/poolCleaner_ws/devel/include -I/home/lvjerry/poolCleaner_ws/src/ros-geometry2/tf2/include -I/home/lvjerry/poolCleaner_ws/src/ros-geometry2/tf2_msgs/include -I/opt/ros/melodic/include 
 

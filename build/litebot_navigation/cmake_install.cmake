@@ -1,8 +1,8 @@
-# Install script for directory: /home/lvjerry/catkin_ws/src/litebot_navigation
+# Install script for directory: /home/lvjerry/poolCleaner_ws/src/litebot_navigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lvjerry/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lvjerry/poolCleaner_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lvjerry/catkin_ws/build/litebot_navigation/catkin_generated/installspace/litebot_navigation.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lvjerry/poolCleaner_ws/build/litebot_navigation/catkin_generated/installspace/litebot_navigation.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/litebot_navigation/cmake" TYPE FILE FILES
-    "/home/lvjerry/catkin_ws/build/litebot_navigation/catkin_generated/installspace/litebot_navigationConfig.cmake"
-    "/home/lvjerry/catkin_ws/build/litebot_navigation/catkin_generated/installspace/litebot_navigationConfig-version.cmake"
+    "/home/lvjerry/poolCleaner_ws/build/litebot_navigation/catkin_generated/installspace/litebot_navigationConfig.cmake"
+    "/home/lvjerry/poolCleaner_ws/build/litebot_navigation/catkin_generated/installspace/litebot_navigationConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/litebot_navigation" TYPE FILE FILES "/home/lvjerry/catkin_ws/src/litebot_navigation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/litebot_navigation" TYPE FILE FILES "/home/lvjerry/poolCleaner_ws/src/litebot_navigation/package.xml")
 endif()
 

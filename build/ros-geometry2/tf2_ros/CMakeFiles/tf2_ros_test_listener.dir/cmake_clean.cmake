@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/tf2_ros_test_listener.dir/test/listener_unittest.cpp.o"
-  "/home/lvjerry/catkin_ws/devel/lib/tf2_ros/tf2_ros_test_listener.pdb"
-  "/home/lvjerry/catkin_ws/devel/lib/tf2_ros/tf2_ros_test_listener"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/tf2_ros/tf2_ros_test_listener.pdb"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/tf2_ros/tf2_ros_test_listener"
 )
 
 # Per-language clean rules from dependency scanning.

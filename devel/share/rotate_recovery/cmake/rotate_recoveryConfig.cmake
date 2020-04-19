@@ -67,14 +67,14 @@ set(rotate_recovery_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(rotate_recovery_SOURCE_PREFIX /home/lvjerry/catkin_ws/src/ros-navigation/rotate_recovery)
-  set(rotate_recovery_DEVEL_PREFIX /home/lvjerry/catkin_ws/devel)
+  set(rotate_recovery_SOURCE_PREFIX /home/lvjerry/poolCleaner_ws/src/ros-navigation/rotate_recovery)
+  set(rotate_recovery_DEVEL_PREFIX /home/lvjerry/poolCleaner_ws/devel)
   set(rotate_recovery_INSTALL_PREFIX "")
   set(rotate_recovery_PREFIX ${rotate_recovery_DEVEL_PREFIX})
 else()
   set(rotate_recovery_SOURCE_PREFIX "")
   set(rotate_recovery_DEVEL_PREFIX "")
-  set(rotate_recovery_INSTALL_PREFIX /home/lvjerry/catkin_ws/install)
+  set(rotate_recovery_INSTALL_PREFIX /home/lvjerry/poolCleaner_ws/install)
   set(rotate_recovery_PREFIX ${rotate_recovery_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(rotate_recovery_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/lvjerry/catkin_ws/src/ros-navigation/rotate_recovery/include " STREQUAL " ")
+if(NOT "/home/lvjerry/poolCleaner_ws/src/ros-navigation/rotate_recovery/include " STREQUAL " ")
   set(rotate_recovery_INCLUDE_DIRS "")
-  set(_include_dirs "/home/lvjerry/catkin_ws/src/ros-navigation/rotate_recovery/include")
+  set(_include_dirs "/home/lvjerry/poolCleaner_ws/src/ros-navigation/rotate_recovery/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/rotate_recovery " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/lvjerry/catkin_ws/src/ros-navigation/rotate_recovery/include " STR
         message(FATAL_ERROR "Project 'rotate_recovery' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'rotate_recovery' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/lvjerry/catkin_ws/src/ros-navigation/rotate_recovery/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'rotate_recovery' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/lvjerry/poolCleaner_ws/src/ros-navigation/rotate_recovery/${idir}'.  ${_report}")
     endif()
     _list_append_unique(rotate_recovery_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/lvjerry/catkin_ws/devel/lib;/home/lvjerry/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/lvjerry/poolCleaner_ws/devel/lib;/home/lvjerry/poolCleaner_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

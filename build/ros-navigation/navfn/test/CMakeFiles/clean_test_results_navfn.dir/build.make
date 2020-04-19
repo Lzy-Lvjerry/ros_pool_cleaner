@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lvjerry/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/lvjerry/poolCleaner_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lvjerry/catkin_ws/build
+CMAKE_BINARY_DIR = /home/lvjerry/poolCleaner_ws/build
 
 # Utility rule file for clean_test_results_navfn.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/lvjerry/catkin_ws/build
 include ros-navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/progress.make
 
 ros-navigation/navfn/test/CMakeFiles/clean_test_results_navfn:
-	cd /home/lvjerry/catkin_ws/build/ros-navigation/navfn/test && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/lvjerry/catkin_ws/build/test_results/navfn
+	cd /home/lvjerry/poolCleaner_ws/build/ros-navigation/navfn/test && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/lvjerry/poolCleaner_ws/build/test_results/navfn
 
 clean_test_results_navfn: ros-navigation/navfn/test/CMakeFiles/clean_test_results_navfn
 clean_test_results_navfn: ros-navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/build.make
@@ -67,10 +67,10 @@ ros-navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/build: clean_t
 .PHONY : ros-navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/build
 
 ros-navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/clean:
-	cd /home/lvjerry/catkin_ws/build/ros-navigation/navfn/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_navfn.dir/cmake_clean.cmake
+	cd /home/lvjerry/poolCleaner_ws/build/ros-navigation/navfn/test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_navfn.dir/cmake_clean.cmake
 .PHONY : ros-navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/clean
 
 ros-navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/depend:
-	cd /home/lvjerry/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lvjerry/catkin_ws/src /home/lvjerry/catkin_ws/src/ros-navigation/navfn/test /home/lvjerry/catkin_ws/build /home/lvjerry/catkin_ws/build/ros-navigation/navfn/test /home/lvjerry/catkin_ws/build/ros-navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lvjerry/poolCleaner_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lvjerry/poolCleaner_ws/src /home/lvjerry/poolCleaner_ws/src/ros-navigation/navfn/test /home/lvjerry/poolCleaner_ws/build /home/lvjerry/poolCleaner_ws/build/ros-navigation/navfn/test /home/lvjerry/poolCleaner_ws/build/ros-navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : ros-navigation/navfn/test/CMakeFiles/clean_test_results_navfn.dir/depend
 

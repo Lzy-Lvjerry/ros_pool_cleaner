@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/move_base_gencfg"
-  "/home/lvjerry/catkin_ws/devel/include/move_base/MoveBaseConfig.h"
-  "/home/lvjerry/catkin_ws/devel/share/move_base/docs/MoveBaseConfig.dox"
-  "/home/lvjerry/catkin_ws/devel/share/move_base/docs/MoveBaseConfig-usage.dox"
-  "/home/lvjerry/catkin_ws/devel/lib/python2.7/dist-packages/move_base/cfg/MoveBaseConfig.py"
-  "/home/lvjerry/catkin_ws/devel/share/move_base/docs/MoveBaseConfig.wikidoc"
+  "/home/lvjerry/poolCleaner_ws/devel/include/move_base/MoveBaseConfig.h"
+  "/home/lvjerry/poolCleaner_ws/devel/share/move_base/docs/MoveBaseConfig.dox"
+  "/home/lvjerry/poolCleaner_ws/devel/share/move_base/docs/MoveBaseConfig-usage.dox"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/python2.7/dist-packages/move_base/cfg/MoveBaseConfig.py"
+  "/home/lvjerry/poolCleaner_ws/devel/share/move_base/docs/MoveBaseConfig.wikidoc"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/lvjerry/catkin_ws/src/ros-openslam_gmapping/configfile/configfile.cpp
+/home/lvjerry/poolCleaner_ws/src/ros-openslam_gmapping/configfile/configfile.cpp
 cstdlib
 -
 gmapping/configfile/configfile.h
-/home/lvjerry/catkin_ws/src/ros-openslam_gmapping/configfile/gmapping/configfile/configfile.h
+/home/lvjerry/poolCleaner_ws/src/ros-openslam_gmapping/configfile/gmapping/configfile/configfile.h
 fstream
 -
 iostream
@@ -24,7 +24,7 @@ iostream
 ctype.h
 -
 
-/home/lvjerry/catkin_ws/src/ros-openslam_gmapping/include/gmapping/configfile/configfile.h
+/home/lvjerry/poolCleaner_ws/src/ros-openslam_gmapping/include/gmapping/configfile/configfile.h
 iostream
 -
 string

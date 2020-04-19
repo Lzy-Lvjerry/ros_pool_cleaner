@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sensor_base.dir/sensor/sensor_base/sensor.cpp.o"
   "CMakeFiles/sensor_base.dir/sensor/sensor_base/sensorreading.cpp.o"
-  "/home/lvjerry/catkin_ws/devel/lib/libsensor_base.pdb"
-  "/home/lvjerry/catkin_ws/devel/lib/libsensor_base.so"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/libsensor_base.pdb"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/libsensor_base.so"
 )
 
 # Per-language clean rules from dependency scanning.

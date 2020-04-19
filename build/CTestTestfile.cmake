@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/lvjerry/catkin_ws/src
-# Build directory: /home/lvjerry/catkin_ws/build
+# Source directory: /home/lvjerry/poolCleaner_ws/src
+# Build directory: /home/lvjerry/poolCleaner_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
@@ -18,6 +18,7 @@ subdirs("ros-geometry2/tf2")
 subdirs("ros-geometry2/tf2_bullet")
 subdirs("ros-geometry2/tf2_eigen")
 subdirs("litebot_teleop")
+subdirs("ar_tags")
 subdirs("ros-navigation/map_server")
 subdirs("ros-geometry2/tf2_py")
 subdirs("ros-depthimage_to_laserscan")

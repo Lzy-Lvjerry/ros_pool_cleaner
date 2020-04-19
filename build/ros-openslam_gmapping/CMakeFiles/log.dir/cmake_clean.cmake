@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/log.dir/log/carmenconfiguration.cpp.o"
   "CMakeFiles/log.dir/log/sensorlog.cpp.o"
   "CMakeFiles/log.dir/log/sensorstream.cpp.o"
-  "/home/lvjerry/catkin_ws/devel/lib/liblog.pdb"
-  "/home/lvjerry/catkin_ws/devel/lib/liblog.so"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/liblog.pdb"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/liblog.so"
 )
 
 # Per-language clean rules from dependency scanning.

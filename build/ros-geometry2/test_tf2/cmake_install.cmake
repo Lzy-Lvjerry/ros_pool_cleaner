@@ -1,8 +1,8 @@
-# Install script for directory: /home/lvjerry/catkin_ws/src/ros-geometry2/test_tf2
+# Install script for directory: /home/lvjerry/poolCleaner_ws/src/ros-geometry2/test_tf2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lvjerry/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lvjerry/poolCleaner_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lvjerry/catkin_ws/build/ros-geometry2/test_tf2/catkin_generated/installspace/test_tf2.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lvjerry/poolCleaner_ws/build/ros-geometry2/test_tf2/catkin_generated/installspace/test_tf2.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_tf2/cmake" TYPE FILE FILES
-    "/home/lvjerry/catkin_ws/build/ros-geometry2/test_tf2/catkin_generated/installspace/test_tf2Config.cmake"
-    "/home/lvjerry/catkin_ws/build/ros-geometry2/test_tf2/catkin_generated/installspace/test_tf2Config-version.cmake"
+    "/home/lvjerry/poolCleaner_ws/build/ros-geometry2/test_tf2/catkin_generated/installspace/test_tf2Config.cmake"
+    "/home/lvjerry/poolCleaner_ws/build/ros-geometry2/test_tf2/catkin_generated/installspace/test_tf2Config-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_tf2" TYPE FILE FILES "/home/lvjerry/catkin_ws/src/ros-geometry2/test_tf2/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_tf2" TYPE FILE FILES "/home/lvjerry/poolCleaner_ws/src/ros-geometry2/test_tf2/package.xml")
 endif()
 

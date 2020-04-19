@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/navfn_generate_messages_eus"
-  "/home/lvjerry/catkin_ws/devel/share/roseus/ros/navfn/srv/MakeNavPlan.l"
-  "/home/lvjerry/catkin_ws/devel/share/roseus/ros/navfn/srv/SetCostmap.l"
-  "/home/lvjerry/catkin_ws/devel/share/roseus/ros/navfn/manifest.l"
+  "/home/lvjerry/poolCleaner_ws/devel/share/roseus/ros/navfn/srv/SetCostmap.l"
+  "/home/lvjerry/poolCleaner_ws/devel/share/roseus/ros/navfn/srv/MakeNavPlan.l"
+  "/home/lvjerry/poolCleaner_ws/devel/share/roseus/ros/navfn/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

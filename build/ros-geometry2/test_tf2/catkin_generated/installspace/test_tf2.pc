@@ -1,4 +1,4 @@
-prefix=/home/lvjerry/catkin_ws/install
+prefix=/home/lvjerry/poolCleaner_ws/install
 
 Name: test_tf2
 Description: Description of test_tf2

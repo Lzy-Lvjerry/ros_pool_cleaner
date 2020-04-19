@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Dtf2_EXPORTS
 
-CXX_INCLUDES = -I/home/lvjerry/catkin_ws/src/ros-geometry2/tf2/include -I/home/lvjerry/catkin_ws/devel/include -I/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_msgs/include -I/opt/ros/melodic/include 
+CXX_INCLUDES = -I/home/lvjerry/poolCleaner_ws/src/ros-geometry2/tf2/include -I/home/lvjerry/poolCleaner_ws/devel/include -I/home/lvjerry/poolCleaner_ws/src/ros-geometry2/tf2_msgs/include -I/opt/ros/melodic/include 
 

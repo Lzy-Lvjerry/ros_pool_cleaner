@@ -3,8 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o"
   "CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o"
   "CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o"
-  "/home/lvjerry/catkin_ws/devel/lib/libscanmatcher.pdb"
-  "/home/lvjerry/catkin_ws/devel/lib/libscanmatcher.so"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/libscanmatcher.pdb"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/libscanmatcher.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
-prefix=/home/lvjerry/catkin_ws/devel
+prefix=/home/lvjerry/poolCleaner_ws/devel
 
 Name: tf2_eigen
 Description: Description of tf2_eigen
 Version: 0.6.7
-Cflags: -I/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_eigen/include -I/usr/include/eigen3
+Cflags: -I/home/lvjerry/poolCleaner_ws/src/ros-geometry2/tf2_eigen/include -I/usr/include/eigen3
 Libs: -L${prefix}/lib 
 Requires: 

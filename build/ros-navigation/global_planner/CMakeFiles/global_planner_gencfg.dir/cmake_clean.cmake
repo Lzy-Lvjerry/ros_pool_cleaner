@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/global_planner_gencfg"
-  "/home/lvjerry/catkin_ws/devel/include/global_planner/GlobalPlannerConfig.h"
-  "/home/lvjerry/catkin_ws/devel/share/global_planner/docs/GlobalPlannerConfig.dox"
-  "/home/lvjerry/catkin_ws/devel/share/global_planner/docs/GlobalPlannerConfig-usage.dox"
-  "/home/lvjerry/catkin_ws/devel/lib/python2.7/dist-packages/global_planner/cfg/GlobalPlannerConfig.py"
-  "/home/lvjerry/catkin_ws/devel/share/global_planner/docs/GlobalPlannerConfig.wikidoc"
+  "/home/lvjerry/poolCleaner_ws/devel/include/global_planner/GlobalPlannerConfig.h"
+  "/home/lvjerry/poolCleaner_ws/devel/share/global_planner/docs/GlobalPlannerConfig.dox"
+  "/home/lvjerry/poolCleaner_ws/devel/share/global_planner/docs/GlobalPlannerConfig-usage.dox"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/python2.7/dist-packages/global_planner/cfg/GlobalPlannerConfig.py"
+  "/home/lvjerry/poolCleaner_ws/devel/share/global_planner/docs/GlobalPlannerConfig.wikidoc"
 )
 
 # Per-language clean rules from dependency scanning.

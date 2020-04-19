@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/log_test.dir/log/log_test.cpp.o"
-  "/home/lvjerry/catkin_ws/devel/lib/openslam_gmapping/log_test.pdb"
-  "/home/lvjerry/catkin_ws/devel/lib/openslam_gmapping/log_test"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/openslam_gmapping/log_test.pdb"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/openslam_gmapping/log_test"
 )
 
 # Per-language clean rules from dependency scanning.

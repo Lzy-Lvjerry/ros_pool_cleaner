@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rdk2carmen.dir/log/rdk2carmen.cpp.o"
-  "/home/lvjerry/catkin_ws/devel/lib/openslam_gmapping/rdk2carmen.pdb"
-  "/home/lvjerry/catkin_ws/devel/lib/openslam_gmapping/rdk2carmen"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/openslam_gmapping/rdk2carmen.pdb"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/openslam_gmapping/rdk2carmen"
 )
 
 # Per-language clean rules from dependency scanning.

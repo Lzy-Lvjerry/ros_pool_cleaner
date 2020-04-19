@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/speed_test.dir/test/speed_test.cpp.o"
-  "/home/lvjerry/catkin_ws/devel/lib/tf2/speed_test.pdb"
-  "/home/lvjerry/catkin_ws/devel/lib/tf2/speed_test"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/tf2/speed_test.pdb"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/tf2/speed_test"
 )
 
 # Per-language clean rules from dependency scanning.

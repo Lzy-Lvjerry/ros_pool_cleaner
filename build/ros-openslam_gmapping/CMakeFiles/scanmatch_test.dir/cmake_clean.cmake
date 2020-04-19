@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/scanmatch_test.dir/scanmatcher/scanmatch_test.cpp.o"
-  "/home/lvjerry/catkin_ws/devel/lib/openslam_gmapping/scanmatch_test.pdb"
-  "/home/lvjerry/catkin_ws/devel/lib/openslam_gmapping/scanmatch_test"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/openslam_gmapping/scanmatch_test.pdb"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/openslam_gmapping/scanmatch_test"
 )
 
 # Per-language clean rules from dependency scanning.

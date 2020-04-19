@@ -67,14 +67,14 @@ set(tf2_geometry_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(tf2_geometry_msgs_SOURCE_PREFIX /home/lvjerry/catkin_ws/src/ros-geometry2/tf2_geometry_msgs)
-  set(tf2_geometry_msgs_DEVEL_PREFIX /home/lvjerry/catkin_ws/devel)
+  set(tf2_geometry_msgs_SOURCE_PREFIX /home/lvjerry/poolCleaner_ws/src/ros-geometry2/tf2_geometry_msgs)
+  set(tf2_geometry_msgs_DEVEL_PREFIX /home/lvjerry/poolCleaner_ws/devel)
   set(tf2_geometry_msgs_INSTALL_PREFIX "")
   set(tf2_geometry_msgs_PREFIX ${tf2_geometry_msgs_DEVEL_PREFIX})
 else()
   set(tf2_geometry_msgs_SOURCE_PREFIX "")
   set(tf2_geometry_msgs_DEVEL_PREFIX "")
-  set(tf2_geometry_msgs_INSTALL_PREFIX /home/lvjerry/catkin_ws/install)
+  set(tf2_geometry_msgs_INSTALL_PREFIX /home/lvjerry/poolCleaner_ws/install)
   set(tf2_geometry_msgs_PREFIX ${tf2_geometry_msgs_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(tf2_geometry_msgs_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_geometry_msgs/include;/opt/ros/melodic/share/orocos_kdl/cmake/../../../include;/usr/include/eigen3 " STREQUAL " ")
+if(NOT "/home/lvjerry/poolCleaner_ws/src/ros-geometry2/tf2_geometry_msgs/include;/opt/ros/melodic/share/orocos_kdl/cmake/../../../include;/usr/include/eigen3 " STREQUAL " ")
   set(tf2_geometry_msgs_INCLUDE_DIRS "")
-  set(_include_dirs "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_geometry_msgs/include;/opt/ros/melodic/share/orocos_kdl/cmake/../../../include;/usr/include/eigen3")
+  set(_include_dirs "/home/lvjerry/poolCleaner_ws/src/ros-geometry2/tf2_geometry_msgs/include;/opt/ros/melodic/share/orocos_kdl/cmake/../../../include;/usr/include/eigen3")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://www.ros.org/wiki/tf2_ros " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_geometry_msgs/include;/opt
         message(FATAL_ERROR "Project 'tf2_geometry_msgs' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'tf2_geometry_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_geometry_msgs/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'tf2_geometry_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/lvjerry/poolCleaner_ws/src/ros-geometry2/tf2_geometry_msgs/${idir}'.  ${_report}")
     endif()
     _list_append_unique(tf2_geometry_msgs_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/lvjerry/catkin_ws/devel/lib;/home/lvjerry/catkin_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/lvjerry/poolCleaner_ws/devel/lib;/home/lvjerry/poolCleaner_ws/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

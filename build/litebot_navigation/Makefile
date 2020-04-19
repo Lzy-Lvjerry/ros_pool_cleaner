@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lvjerry/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/lvjerry/poolCleaner_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lvjerry/catkin_ws/build
+CMAKE_BINARY_DIR = /home/lvjerry/poolCleaner_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lvjerry/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lvjerry/catkin_ws/build/CMakeFiles /home/lvjerry/catkin_ws/build/litebot_navigation/CMakeFiles/progress.marks
-	cd /home/lvjerry/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 litebot_navigation/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lvjerry/catkin_ws/build/CMakeFiles 0
+	cd /home/lvjerry/poolCleaner_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/lvjerry/poolCleaner_ws/build/CMakeFiles /home/lvjerry/poolCleaner_ws/build/litebot_navigation/CMakeFiles/progress.marks
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 litebot_navigation/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lvjerry/poolCleaner_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lvjerry/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 litebot_navigation/clean
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 litebot_navigation/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lvjerry/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 litebot_navigation/preinstall
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 litebot_navigation/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lvjerry/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 litebot_navigation/preinstall
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 litebot_navigation/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lvjerry/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lvjerry/poolCleaner_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lvjerry/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lvjerry/poolCleaner_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

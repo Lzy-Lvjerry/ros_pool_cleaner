@@ -1,44 +1,49 @@
 {
-  "configurations": [
-    {
-      "browse": {
-        "databaseFilename": "",
-        "limitSymbolsToIncludedHeaders": true
-      },
-      "includePath": [
-        "/home/lvjerry/catkin_ws/devel/include/**",
-        "/opt/ros/melodic/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-navigation/amcl/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-navigation/base_local_planner/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-navigation/carrot_planner/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-navigation/clear_costmap_recovery/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-navigation/costmap_2d/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-depthimage_to_laserscan/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-navigation/dwa_local_planner/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-navigation/global_planner/include/**",
-        "/home/lvjerry/catkin_ws/src/litebot_description/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-navigation/map_server/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-navigation/move_base/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-navigation/move_slow_and_clear/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-navigation/nav_core/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-navigation/navfn/include/**",
-        "/home/lvjerry/catkin_ws/src/odom_tf_package/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-openslam_gmapping/include/**",
-        "/home/lvjerry/catkin_ws/src/ar_tags/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-navigation/rotate_recovery/include/**",
-        "/home/lvjerry/catkin_ws/src/spawn_robot_pkg/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_bullet/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_eigen/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_geometry_msgs/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_kdl/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_msgs/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_ros/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_sensor_msgs/include/**",
-        "/home/lvjerry/catkin_ws/src/ros-navigation/voxel_grid/include/**",
-        "/usr/include/**"
-      ],
-      "name": "ROS"
-    }
-  ]
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/lvjerry/catkin_ws/devel/include/**",
+                "/opt/ros/melodic/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-navigation/amcl/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-navigation/base_local_planner/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-navigation/carrot_planner/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-navigation/clear_costmap_recovery/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-navigation/costmap_2d/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-depthimage_to_laserscan/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-navigation/dwa_local_planner/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-navigation/global_planner/include/**",
+                "/home/lvjerry/catkin_ws/src/litebot_description/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-navigation/map_server/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-navigation/move_base/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-navigation/move_slow_and_clear/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-navigation/nav_core/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-navigation/navfn/include/**",
+                "/home/lvjerry/catkin_ws/src/odom_tf_package/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-openslam_gmapping/include/**",
+                "/home/lvjerry/catkin_ws/src/ar_tags/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-navigation/rotate_recovery/include/**",
+                "/home/lvjerry/catkin_ws/src/spawn_robot_pkg/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_bullet/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_eigen/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_geometry_msgs/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_kdl/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_msgs/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_ros/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-geometry2/tf2_sensor_msgs/include/**",
+                "/home/lvjerry/catkin_ws/src/ros-navigation/voxel_grid/include/**",
+                "/usr/include/**"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
 }

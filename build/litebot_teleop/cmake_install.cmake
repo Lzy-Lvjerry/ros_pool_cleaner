@@ -1,8 +1,8 @@
-# Install script for directory: /home/lvjerry/catkin_ws/src/litebot_teleop
+# Install script for directory: /home/lvjerry/poolCleaner_ws/src/litebot_teleop
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lvjerry/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/lvjerry/poolCleaner_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lvjerry/catkin_ws/build/litebot_teleop/catkin_generated/installspace/litebot_teleop.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/lvjerry/poolCleaner_ws/build/litebot_teleop/catkin_generated/installspace/litebot_teleop.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/litebot_teleop/cmake" TYPE FILE FILES
-    "/home/lvjerry/catkin_ws/build/litebot_teleop/catkin_generated/installspace/litebot_teleopConfig.cmake"
-    "/home/lvjerry/catkin_ws/build/litebot_teleop/catkin_generated/installspace/litebot_teleopConfig-version.cmake"
+    "/home/lvjerry/poolCleaner_ws/build/litebot_teleop/catkin_generated/installspace/litebot_teleopConfig.cmake"
+    "/home/lvjerry/poolCleaner_ws/build/litebot_teleop/catkin_generated/installspace/litebot_teleopConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/litebot_teleop" TYPE FILE FILES "/home/lvjerry/catkin_ws/src/litebot_teleop/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/litebot_teleop" TYPE FILE FILES "/home/lvjerry/poolCleaner_ws/src/litebot_teleop/package.xml")
 endif()
 

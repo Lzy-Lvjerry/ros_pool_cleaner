@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/coordinates_test.dir/test/coordinates_test.cpp.o"
-  "/home/lvjerry/catkin_ws/devel/lib/costmap_2d/coordinates_test.pdb"
-  "/home/lvjerry/catkin_ws/devel/lib/costmap_2d/coordinates_test"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/costmap_2d/coordinates_test.pdb"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/costmap_2d/coordinates_test"
 )
 
 # Per-language clean rules from dependency scanning.

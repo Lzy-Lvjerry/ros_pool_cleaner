@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Dsensor_base_EXPORTS
 
-CXX_INCLUDES = -I/home/lvjerry/catkin_ws/src/ros-openslam_gmapping/include 
+CXX_INCLUDES = -I/home/lvjerry/poolCleaner_ws/src/ros-openslam_gmapping/include 
 

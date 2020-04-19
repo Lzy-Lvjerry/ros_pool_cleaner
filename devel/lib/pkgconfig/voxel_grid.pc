@@ -1,8 +1,8 @@
-prefix=/home/lvjerry/catkin_ws/devel
+prefix=/home/lvjerry/poolCleaner_ws/devel
 
 Name: voxel_grid
 Description: Description of voxel_grid
 Version: 1.16.6
-Cflags: -I/home/lvjerry/catkin_ws/src/ros-navigation/voxel_grid/include
+Cflags: -I/home/lvjerry/poolCleaner_ws/src/ros-navigation/voxel_grid/include
 Libs: -L${prefix}/lib -lvoxel_grid
 Requires: roscpp

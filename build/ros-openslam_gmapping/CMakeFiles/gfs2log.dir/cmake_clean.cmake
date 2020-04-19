@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gfs2log.dir/gridfastslam/gfs2log.cpp.o"
-  "/home/lvjerry/catkin_ws/devel/lib/openslam_gmapping/gfs2log.pdb"
-  "/home/lvjerry/catkin_ws/devel/lib/openslam_gmapping/gfs2log"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/openslam_gmapping/gfs2log.pdb"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/openslam_gmapping/gfs2log"
 )
 
 # Per-language clean rules from dependency scanning.

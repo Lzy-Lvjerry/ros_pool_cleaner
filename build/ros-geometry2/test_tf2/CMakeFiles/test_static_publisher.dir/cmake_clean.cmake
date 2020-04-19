@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_static_publisher.dir/test/test_static_publisher.cpp.o"
-  "/home/lvjerry/catkin_ws/devel/lib/test_tf2/test_static_publisher.pdb"
-  "/home/lvjerry/catkin_ws/devel/lib/test_tf2/test_static_publisher"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/test_tf2/test_static_publisher.pdb"
+  "/home/lvjerry/poolCleaner_ws/devel/lib/test_tf2/test_static_publisher"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,4 +1,4 @@
-prefix=/home/lvjerry/catkin_ws/install
+prefix=/home/lvjerry/poolCleaner_ws/install
 
 Name: fake_localization
 Description: Description of fake_localization
