@@ -8,4 +8,3 @@
 
 # modified environment variables
 export PWD="/home/lvjerry/poolCleaner_ws/build"
-export ROS_PACKAGE_PATH="/home/lvjerry/poolCleaner_ws/src:/opt/ros/melodic/share"

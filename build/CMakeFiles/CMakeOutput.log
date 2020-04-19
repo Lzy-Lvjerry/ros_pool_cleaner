@@ -729,3 +729,33 @@ Linking CXX executable cmTC_8c15d
 make[1]: 离开目录“/home/lvjerry/poolCleaner_ws/build/CMakeFiles/CMakeTmp”
 
 
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/lvjerry/poolCleaner_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a52d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a52d7.dir/build.make CMakeFiles/cmTC_a52d7.dir/build
+make[1]: Entering directory '/home/lvjerry/poolCleaner_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a52d7.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_a52d7.dir/src.cxx.o -c /home/lvjerry/poolCleaner_ws/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a52d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a52d7.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORTS_CXX11    -rdynamic CMakeFiles/cmTC_a52d7.dir/src.cxx.o  -o cmTC_a52d7 
+make[1]: Leaving directory '/home/lvjerry/poolCleaner_ws/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX0X succeeded with the following output:
+Change Dir: /home/lvjerry/poolCleaner_ws/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_60b47/fast"
+/usr/bin/make -f CMakeFiles/cmTC_60b47.dir/build.make CMakeFiles/cmTC_60b47.dir/build
+make[1]: Entering directory '/home/lvjerry/poolCleaner_ws/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_60b47.dir/src.cxx.o
+/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX0X   -std=c++0x -o CMakeFiles/cmTC_60b47.dir/src.cxx.o -c /home/lvjerry/poolCleaner_ws/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_60b47
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60b47.dir/link.txt --verbose=1
+/usr/bin/c++   -DCOMPILER_SUPPORTS_CXX0X    -rdynamic CMakeFiles/cmTC_60b47.dir/src.cxx.o  -o cmTC_60b47 
+make[1]: Leaving directory '/home/lvjerry/poolCleaner_ws/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

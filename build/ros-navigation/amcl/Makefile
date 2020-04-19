@@ -168,6 +168,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule
+.PHONY : ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule
+
+# Convenience name for target.
+run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml: ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule
+
+.PHONY : run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml
+
+# fast build rule for target.
+run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml/fast:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/build.make ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/build
+.PHONY : run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml/fast
+
+# Convenience name for target.
 ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_rosie_multilaser.xml.dir/rule:
 	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_rosie_multilaser.xml.dir/rule
 .PHONY : ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_rosie_multilaser.xml.dir/rule
@@ -198,79 +213,19 @@ run_tests_amcl_rostest_test_rosie_multilaser.xml/fast:
 .PHONY : run_tests_amcl_rostest_test_rosie_multilaser.xml/fast
 
 # Convenience name for target.
-ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule
+ros-navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule
+.PHONY : ros-navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule
 
 # Convenience name for target.
-_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml: ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule
+amcl_small_loop_prf_indexed.bag: ros-navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule
 
-.PHONY : _run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml
+.PHONY : amcl_small_loop_prf_indexed.bag
 
 # fast build rule for target.
-_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/build.make ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/build
-.PHONY : _run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml/fast
-
-# Convenience name for target.
-ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
-
-# Convenience name for target.
-run_tests_amcl_rostest_test_texas_greenroom_loop.xml: ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
-
-.PHONY : run_tests_amcl_rostest_test_texas_greenroom_loop.xml
-
-# fast build rule for target.
-run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build.make ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build
-.PHONY : run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast
-
-# Convenience name for target.
-ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule
-
-# Convenience name for target.
-_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml: ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule
-
-.PHONY : _run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml
-
-# fast build rule for target.
-_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/build.make ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/build
-.PHONY : _run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml/fast
-
-# Convenience name for target.
-ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule
-
-# Convenience name for target.
-run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml: ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule
-
-.PHONY : run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml
-
-# fast build rule for target.
-run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/build.make ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/build
-.PHONY : run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml/fast
-
-# Convenience name for target.
-ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/rule
-
-# Convenience name for target.
-_run_tests_amcl_rostest_test_small_loop_prf.xml: ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/rule
-
-.PHONY : _run_tests_amcl_rostest_test_small_loop_prf.xml
-
-# fast build rule for target.
-_run_tests_amcl_rostest_test_small_loop_prf.xml/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/build.make ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/build
-.PHONY : _run_tests_amcl_rostest_test_small_loop_prf.xml/fast
+amcl_small_loop_prf_indexed.bag/fast:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/build.make ros-navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/build
+.PHONY : amcl_small_loop_prf_indexed.bag/fast
 
 # Convenience name for target.
 ros-navigation/amcl/CMakeFiles/amcl_basic_localization_stage_indexed.bag.dir/rule:
@@ -303,6 +258,51 @@ amcl_sensors/fast:
 .PHONY : amcl_sensors/fast
 
 # Convenience name for target.
+ros-navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag.dir/rule:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag.dir/rule
+.PHONY : ros-navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag.dir/rule
+
+# Convenience name for target.
+amcl_texas_willow_hallway_loop_indexed.bag: ros-navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag.dir/rule
+
+.PHONY : amcl_texas_willow_hallway_loop_indexed.bag
+
+# fast build rule for target.
+amcl_texas_willow_hallway_loop_indexed.bag/fast:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag.dir/build.make ros-navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag.dir/build
+.PHONY : amcl_texas_willow_hallway_loop_indexed.bag/fast
+
+# Convenience name for target.
+ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
+.PHONY : ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+diagnostic_msgs_generate_messages_nodejs: ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
+
+.PHONY : diagnostic_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+diagnostic_msgs_generate_messages_nodejs/fast:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build
+.PHONY : diagnostic_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
+ros-navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/rule:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/rule
+.PHONY : ros-navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/rule
+
+# Convenience name for target.
+amcl_small_loop_crazy_driving_prg_indexed.bag: ros-navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/rule
+
+.PHONY : amcl_small_loop_crazy_driving_prg_indexed.bag
+
+# fast build rule for target.
+amcl_small_loop_crazy_driving_prg_indexed.bag/fast:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/build.make ros-navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/build
+.PHONY : amcl_small_loop_crazy_driving_prg_indexed.bag/fast
+
+# Convenience name for target.
 ros-navigation/amcl/CMakeFiles/amcl_pf.dir/rule:
 	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/amcl_pf.dir/rule
 .PHONY : ros-navigation/amcl/CMakeFiles/amcl_pf.dir/rule
@@ -318,109 +318,19 @@ amcl_pf/fast:
 .PHONY : amcl_pf/fast
 
 # Convenience name for target.
-ros-navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule
+ros-navigation/amcl/CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/rule:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/rule
+.PHONY : ros-navigation/amcl/CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/rule
 
 # Convenience name for target.
-amcl_small_loop_prf_indexed.bag: ros-navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/rule
+amcl_texas_greenroom_loop_indexed.bag: ros-navigation/amcl/CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/rule
 
-.PHONY : amcl_small_loop_prf_indexed.bag
+.PHONY : amcl_texas_greenroom_loop_indexed.bag
 
 # fast build rule for target.
-amcl_small_loop_prf_indexed.bag/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/build.make ros-navigation/amcl/CMakeFiles/amcl_small_loop_prf_indexed.bag.dir/build
-.PHONY : amcl_small_loop_prf_indexed.bag/fast
-
-# Convenience name for target.
-ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule
-
-# Convenience name for target.
-run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml: ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule
-
-.PHONY : run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml
-
-# fast build rule for target.
-run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/build.make ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/build
-.PHONY : run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml/fast
-
-# Convenience name for target.
-ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-topic_tools_generate_messages_lisp: ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_lisp.dir/rule
-
-.PHONY : topic_tools_generate_messages_lisp
-
-# fast build rule for target.
-topic_tools_generate_messages_lisp/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_lisp.dir/build.make ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_lisp.dir/build
-.PHONY : topic_tools_generate_messages_lisp/fast
-
-# Convenience name for target.
-ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
-
-# Convenience name for target.
-_run_tests_amcl_rostest_test_texas_greenroom_loop.xml: ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
-
-.PHONY : _run_tests_amcl_rostest_test_texas_greenroom_loop.xml
-
-# fast build rule for target.
-_run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build.make ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build
-.PHONY : _run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast
-
-# Convenience name for target.
-ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_py.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_py.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_py.dir/rule
-
-# Convenience name for target.
-topic_tools_generate_messages_py: ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_py.dir/rule
-
-.PHONY : topic_tools_generate_messages_py
-
-# fast build rule for target.
-topic_tools_generate_messages_py/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_py.dir/build.make ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_py.dir/build
-.PHONY : topic_tools_generate_messages_py/fast
-
-# Convenience name for target.
-ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule
-
-# Convenience name for target.
-run_tests_amcl_rostest: ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule
-
-.PHONY : run_tests_amcl_rostest
-
-# fast build rule for target.
-run_tests_amcl_rostest/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/build.make ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/build
-.PHONY : run_tests_amcl_rostest/fast
-
-# Convenience name for target.
-ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_eus.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_eus.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-topic_tools_generate_messages_eus: ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_eus.dir/rule
-
-.PHONY : topic_tools_generate_messages_eus
-
-# fast build rule for target.
-topic_tools_generate_messages_eus/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_eus.dir/build.make ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_eus.dir/build
-.PHONY : topic_tools_generate_messages_eus/fast
+amcl_texas_greenroom_loop_indexed.bag/fast:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/build.make ros-navigation/amcl/CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/build
+.PHONY : amcl_texas_greenroom_loop_indexed.bag/fast
 
 # Convenience name for target.
 ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/rule:
@@ -453,21 +363,6 @@ diagnostic_msgs_generate_messages_cpp/fast:
 .PHONY : diagnostic_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
-ros-navigation/amcl/CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/rule
-
-# Convenience name for target.
-amcl_texas_greenroom_loop_indexed.bag: ros-navigation/amcl/CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/rule
-
-.PHONY : amcl_texas_greenroom_loop_indexed.bag
-
-# fast build rule for target.
-amcl_texas_greenroom_loop_indexed.bag/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/build.make ros-navigation/amcl/CMakeFiles/amcl_texas_greenroom_loop_indexed.bag.dir/build
-.PHONY : amcl_texas_greenroom_loop_indexed.bag/fast
-
-# Convenience name for target.
 ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule:
 	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
 .PHONY : ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_lisp.dir/rule
@@ -483,51 +378,6 @@ diagnostic_msgs_generate_messages_lisp/fast:
 .PHONY : diagnostic_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
-ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-diagnostic_msgs_generate_messages_nodejs: ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/rule
-
-.PHONY : diagnostic_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-diagnostic_msgs_generate_messages_nodejs/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build.make ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_nodejs.dir/build
-.PHONY : diagnostic_msgs_generate_messages_nodejs/fast
-
-# Convenience name for target.
-ros-navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag.dir/rule
-
-# Convenience name for target.
-amcl_texas_willow_hallway_loop_indexed.bag: ros-navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag.dir/rule
-
-.PHONY : amcl_texas_willow_hallway_loop_indexed.bag
-
-# fast build rule for target.
-amcl_texas_willow_hallway_loop_indexed.bag/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag.dir/build.make ros-navigation/amcl/CMakeFiles/amcl_texas_willow_hallway_loop_indexed.bag.dir/build
-.PHONY : amcl_texas_willow_hallway_loop_indexed.bag/fast
-
-# Convenience name for target.
-ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-topic_tools_generate_messages_cpp: ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_cpp.dir/rule
-
-.PHONY : topic_tools_generate_messages_cpp
-
-# fast build rule for target.
-topic_tools_generate_messages_cpp/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_cpp.dir/build.make ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_cpp.dir/build
-.PHONY : topic_tools_generate_messages_cpp/fast
-
-# Convenience name for target.
 ros-navigation/amcl/CMakeFiles/amcl_global_localization_stage_indexed.bag.dir/rule:
 	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/amcl_global_localization_stage_indexed.bag.dir/rule
 .PHONY : ros-navigation/amcl/CMakeFiles/amcl_global_localization_stage_indexed.bag.dir/rule
@@ -541,21 +391,6 @@ amcl_global_localization_stage_indexed.bag: ros-navigation/amcl/CMakeFiles/amcl_
 amcl_global_localization_stage_indexed.bag/fast:
 	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/amcl_global_localization_stage_indexed.bag.dir/build.make ros-navigation/amcl/CMakeFiles/amcl_global_localization_stage_indexed.bag.dir/build
 .PHONY : amcl_global_localization_stage_indexed.bag/fast
-
-# Convenience name for target.
-ros-navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/rule
-
-# Convenience name for target.
-amcl_small_loop_crazy_driving_prg_indexed.bag: ros-navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/rule
-
-.PHONY : amcl_small_loop_crazy_driving_prg_indexed.bag
-
-# fast build rule for target.
-amcl_small_loop_crazy_driving_prg_indexed.bag/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/build.make ros-navigation/amcl/CMakeFiles/amcl_small_loop_crazy_driving_prg_indexed.bag.dir/build
-.PHONY : amcl_small_loop_crazy_driving_prg_indexed.bag/fast
 
 # Convenience name for target.
 ros-navigation/amcl/CMakeFiles/amcl_map.dir/rule:
@@ -603,21 +438,6 @@ _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml/fast:
 .PHONY : _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml/fast
 
 # Convenience name for target.
-ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
-.PHONY : ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-topic_tools_generate_messages_nodejs: ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_nodejs.dir/rule
-
-.PHONY : topic_tools_generate_messages_nodejs
-
-# fast build rule for target.
-topic_tools_generate_messages_nodejs/fast:
-	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build.make ros-navigation/amcl/CMakeFiles/topic_tools_generate_messages_nodejs.dir/build
-.PHONY : topic_tools_generate_messages_nodejs/fast
-
-# Convenience name for target.
 ros-navigation/amcl/CMakeFiles/amcl_willow-full.pgm.dir/rule:
 	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/amcl_willow-full.pgm.dir/rule
 .PHONY : ros-navigation/amcl/CMakeFiles/amcl_willow-full.pgm.dir/rule
@@ -661,6 +481,36 @@ run_tests_amcl: ros-navigation/amcl/CMakeFiles/run_tests_amcl.dir/rule
 run_tests_amcl/fast:
 	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/run_tests_amcl.dir/build.make ros-navigation/amcl/CMakeFiles/run_tests_amcl.dir/build
 .PHONY : run_tests_amcl/fast
+
+# Convenience name for target.
+ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
+.PHONY : ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
+
+# Convenience name for target.
+_run_tests_amcl_rostest_test_texas_greenroom_loop.xml: ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
+
+.PHONY : _run_tests_amcl_rostest_test_texas_greenroom_loop.xml
+
+# fast build rule for target.
+_run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build.make ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build
+.PHONY : _run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast
+
+# Convenience name for target.
+ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule
+.PHONY : ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule
+
+# Convenience name for target.
+run_tests_amcl_rostest: ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/rule
+
+.PHONY : run_tests_amcl_rostest
+
+# fast build rule for target.
+run_tests_amcl_rostest/fast:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/build.make ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest.dir/build
+.PHONY : run_tests_amcl_rostest/fast
 
 # Convenience name for target.
 ros-navigation/amcl/CMakeFiles/diagnostic_msgs_generate_messages_py.dir/rule:
@@ -841,6 +691,81 @@ run_tests_amcl_rostest_test_small_loop_prf.xml: ros-navigation/amcl/CMakeFiles/r
 run_tests_amcl_rostest_test_small_loop_prf.xml/fast:
 	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_small_loop_prf.xml.dir/build.make ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_small_loop_prf.xml.dir/build
 .PHONY : run_tests_amcl_rostest_test_small_loop_prf.xml/fast
+
+# Convenience name for target.
+ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule
+.PHONY : ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule
+
+# Convenience name for target.
+run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml: ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule
+
+.PHONY : run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml
+
+# fast build rule for target.
+run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml/fast:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/build.make ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/build
+.PHONY : run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml/fast
+
+# Convenience name for target.
+ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/rule:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/rule
+.PHONY : ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/rule
+
+# Convenience name for target.
+_run_tests_amcl_rostest_test_small_loop_prf.xml: ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/rule
+
+.PHONY : _run_tests_amcl_rostest_test_small_loop_prf.xml
+
+# fast build rule for target.
+_run_tests_amcl_rostest_test_small_loop_prf.xml/fast:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/build.make ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_prf.xml.dir/build
+.PHONY : _run_tests_amcl_rostest_test_small_loop_prf.xml/fast
+
+# Convenience name for target.
+ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule
+.PHONY : ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule
+
+# Convenience name for target.
+_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml: ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/rule
+
+.PHONY : _run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml
+
+# fast build rule for target.
+_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml/fast:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/build.make ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml.dir/build
+.PHONY : _run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml/fast
+
+# Convenience name for target.
+ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule
+.PHONY : ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule
+
+# Convenience name for target.
+_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml: ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/rule
+
+.PHONY : _run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml
+
+# fast build rule for target.
+_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml/fast:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/build.make ros-navigation/amcl/CMakeFiles/_run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml.dir/build
+.PHONY : _run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml/fast
+
+# Convenience name for target.
+ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f CMakeFiles/Makefile2 ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
+.PHONY : ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
+
+# Convenience name for target.
+run_tests_amcl_rostest_test_texas_greenroom_loop.xml: ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/rule
+
+.PHONY : run_tests_amcl_rostest_test_texas_greenroom_loop.xml
+
+# fast build rule for target.
+run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast:
+	cd /home/lvjerry/poolCleaner_ws/build && $(MAKE) -f ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build.make ros-navigation/amcl/CMakeFiles/run_tests_amcl_rostest_test_texas_greenroom_loop.xml.dir/build
+.PHONY : run_tests_amcl_rostest_test_texas_greenroom_loop.xml/fast
 
 src/amcl/map/map.o: src/amcl/map/map.c.o
 
@@ -1258,40 +1183,30 @@ help:
 	@echo "... install"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml"
 	@echo "... _run_tests_amcl_rostest_test_rosie_multilaser.xml"
 	@echo "... run_tests_amcl_rostest_test_rosie_multilaser.xml"
-	@echo "... _run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml"
-	@echo "... run_tests_amcl_rostest_test_texas_greenroom_loop.xml"
-	@echo "... _run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml"
-	@echo "... run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml"
-	@echo "... _run_tests_amcl_rostest_test_small_loop_prf.xml"
+	@echo "... amcl_small_loop_prf_indexed.bag"
 	@echo "... amcl_basic_localization_stage_indexed.bag"
 	@echo "... amcl_sensors"
+	@echo "... amcl_texas_willow_hallway_loop_indexed.bag"
+	@echo "... diagnostic_msgs_generate_messages_nodejs"
+	@echo "... amcl_small_loop_crazy_driving_prg_indexed.bag"
 	@echo "... amcl_pf"
-	@echo "... amcl_small_loop_prf_indexed.bag"
-	@echo "... run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml"
-	@echo "... topic_tools_generate_messages_lisp"
-	@echo "... _run_tests_amcl_rostest_test_texas_greenroom_loop.xml"
-	@echo "... topic_tools_generate_messages_py"
-	@echo "... run_tests_amcl_rostest"
-	@echo "... topic_tools_generate_messages_eus"
+	@echo "... amcl_texas_greenroom_loop_indexed.bag"
 	@echo "... diagnostic_msgs_generate_messages_eus"
 	@echo "... diagnostic_msgs_generate_messages_cpp"
-	@echo "... amcl_texas_greenroom_loop_indexed.bag"
 	@echo "... diagnostic_msgs_generate_messages_lisp"
-	@echo "... diagnostic_msgs_generate_messages_nodejs"
-	@echo "... amcl_texas_willow_hallway_loop_indexed.bag"
-	@echo "... topic_tools_generate_messages_cpp"
 	@echo "... amcl_global_localization_stage_indexed.bag"
-	@echo "... amcl_small_loop_crazy_driving_prg_indexed.bag"
 	@echo "... amcl_map"
 	@echo "... amcl_rosie_localization_stage.bag"
 	@echo "... rebuild_cache"
 	@echo "... _run_tests_amcl_rostest_test_set_initial_pose_delayed.xml"
-	@echo "... topic_tools_generate_messages_nodejs"
 	@echo "... amcl_willow-full.pgm"
 	@echo "... amcl"
 	@echo "... run_tests_amcl"
+	@echo "... _run_tests_amcl_rostest_test_texas_greenroom_loop.xml"
+	@echo "... run_tests_amcl_rostest"
 	@echo "... diagnostic_msgs_generate_messages_py"
 	@echo "... _run_tests_amcl_rostest"
 	@echo "... run_tests_amcl_rostest_test_set_initial_pose.xml"
@@ -1305,6 +1220,11 @@ help:
 	@echo "... _run_tests_amcl_rostest_test_basic_localization_stage.xml"
 	@echo "... amcl_gencfg"
 	@echo "... run_tests_amcl_rostest_test_small_loop_prf.xml"
+	@echo "... run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml"
+	@echo "... _run_tests_amcl_rostest_test_small_loop_prf.xml"
+	@echo "... _run_tests_amcl_rostest_test_small_loop_crazy_driving_prg.xml"
+	@echo "... _run_tests_amcl_rostest_test_texas_willow_hallway_loop.xml"
+	@echo "... run_tests_amcl_rostest_test_texas_greenroom_loop.xml"
 	@echo "... src/amcl/map/map.o"
 	@echo "... src/amcl/map/map.i"
 	@echo "... src/amcl/map/map.s"
